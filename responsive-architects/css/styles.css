@@ -1,0 +1,48 @@
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+/*base style*/
+p{
+    font-size: 18px;
+}
+
+header {
+    background-image: url('../img/header.jpg');
+    background-size: cover;
+    height: 48vh;
+}
+
+header .inner {
+    margin: 0 auto;
+    max-width: 1280px;
+}
+
+nav{
+    display: none;
+}
+
+h1{
+    background-color: rgba(255,255,255,.4);
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    padding: 1rem;
+}
+
+.menu-button{
+    background-color: rgba(255,255,255,.4);
+    border: 1px solid transparent;
+    padding: 1rem;
+}
+
+.menu-wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+
+.intro{
+    text-transform: uppercase;
+    padding: 11rem 1rem 1rem 1rem;
+}
