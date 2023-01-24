@@ -22,7 +22,7 @@ body {
   }
   header {
     display: flex;
-    gap: 8rem;
+    gap: 20rem;
     padding: 3rem 1rem;
     max-width: 1180px;
     margin: 0 auto;
