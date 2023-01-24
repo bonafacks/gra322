@@ -28,3 +28,9 @@ body {
     margin: 0 auto;
     padding: 1rem;
   }
+  @media screen and (min-width: 800px) {
+    header {
+      display: flex;
+      gap: 2rem;
+      padding: 3rem 1rem;
+    }
