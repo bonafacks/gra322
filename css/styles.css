@@ -3,3 +3,9 @@ body {
     line-height: 1.65;
     margin: 0;
   }
+  h1 {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 54px;
+    display: inline-block;
+  }
