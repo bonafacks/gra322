@@ -10,3 +10,8 @@ body {
     line-height: 54px;
     display: inline-block;
   }
+  header {
+    max-width: 1180px;
+    margin: 0 auto;
+    padding: 1rem;
+  }
