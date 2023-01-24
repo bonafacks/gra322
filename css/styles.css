@@ -23,7 +23,7 @@ body {
   header {
     display: flex;
     gap: 45rem;
-    padding: 3rem 1rem;
+    padding: 10rem 1rem;
     max-width: 1180px;
     margin: 0 auto;
     padding: 1rem;
