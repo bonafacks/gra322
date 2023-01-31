@@ -3,7 +3,7 @@ body {
 }
 
 /*base style*/
-p{
+p {
     font-size: 18px;
 }
 
@@ -13,17 +13,40 @@ header {
     height: 48vh;
 }
 
-header .inner {
+.inner {
     margin: 0 auto;
     max-width: 1280px;
+    position: relative;
 }
 
-nav{
+header .inner {
+    height: 100%;
+}
+
+nav {
+    background-color: rgba(255, 255, 255, .4);
     display: none;
+    padding: 1rem;
 }
 
-h1{
-    background-color: rgba(255,255,255,.4);
+nav ul {
+    margin-left: 0;
+    padding-left: 0;
+}
+
+nav li {
+    list-style: none;
+}
+
+nav a {
+    color: black;
+    font-size: 14px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+h1 {
+    background-color: rgba(255, 255, 255, .4);
     font-size: 14px;
     font-weight: 600;
     letter-spacing: 1px;
@@ -31,18 +54,68 @@ h1{
     padding: 1rem;
 }
 
-.menu-button{
-    background-color: rgba(255,255,255,.4);
+.menu-button {
+    background-color: rgba(255, 255, 255, .4);
     border: 1px solid transparent;
     padding: 1rem;
 }
 
-.menu-wrapper{
+.menu-wrapper {
     display: flex;
     justify-content: space-between;
 }
 
-.intro{
+.intro {
+    bottom: 0;
+    left: 0;
     text-transform: uppercase;
     padding: 11rem 1rem 1rem 1rem;
+    position: absolute;
+}
+
+.freatured-work {
+    padding: 3rem 1rem;
+}
+
+.freatured-work h2 {
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    text-transform: uppercase;
+}
+
+.freatured-work figure {
+    margin-bottom: 2rem;
+}
+
+.freatured-work figcaption{
+    font-size: 14px;
+    margin-top: 1rem;
+    text-transform: uppercase;
+}
+
+@media screen and (min-width: 680px) {
+    .work-grid {
+        display: grid;
+        gap: 1rem;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+}
+
+@media screen and (min-width: 800px){
+    .menu-button{
+        display: none;
+    }
+
+    nav {
+        display: block;
+    }
+
+    nav ul {
+        display: flex;
+        gap: 1rem;
+    }
+
+
 }
