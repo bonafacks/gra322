@@ -94,6 +94,44 @@ h1 {
     text-transform: uppercase;
 }
 
+.studio{
+    background-color: rgba(255, 255, 255, .4);
+    border: 1px solid transparent;
+    padding: 1rem;
+}
+
+.studio p {
+    background-color: rgba(255, 255, 255, .4);
+    font-size: 15px;
+    font-weight: 300;
+    padding-right: 36px;
+    padding-left: 45px;
+    margin-left: 15px;
+    margin-top: 40px;
+    border-left: solid 3px;
+    border-color: #F2F2F2;
+    margin-bottom: 24px;
+    text-align: left;
+    word-spacing: 5px;
+    line-height: 26px;
+}
+
+.studio h2{
+    background-color: rgba(255, 255, 255, .4);
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+
+}
+
+footer{
+    font-size: 14px;
+    font-weight: 600;
+    padding: 1rem;
+    text-transform: uppercase;
+}
+
+
 @media screen and (min-width: 680px) {
     .work-grid {
         display: grid;
@@ -115,6 +153,10 @@ h1 {
     nav ul {
         display: flex;
         gap: 1rem;
+    }
+
+    .studio{
+        display: flex;
     }
 
 
