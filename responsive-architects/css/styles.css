@@ -88,20 +88,18 @@ h1 {
     margin-bottom: 2rem;
 }
 
-.freatured-work figcaption{
+.freatured-work figcaption {
     font-size: 14px;
     margin-top: 1rem;
     text-transform: uppercase;
 }
 
-.studio{
-    background-color: rgba(255, 255, 255, .4);
-    border: 1px solid transparent;
+.studio {
+    background-color: #fafafa;
     padding: 1rem;
 }
 
 .studio p {
-    background-color: rgba(255, 255, 255, .4);
     font-size: 15px;
     font-weight: 300;
     padding-right: 36px;
@@ -116,15 +114,14 @@ h1 {
     line-height: 26px;
 }
 
-.studio h2{
-    background-color: rgba(255, 255, 255, .4);
+.studio h2 {
     font-size: 14px;
     font-weight: 600;
     text-transform: uppercase;
 
 }
 
-footer{
+footer {
     font-size: 14px;
     font-weight: 600;
     padding: 1rem;
@@ -139,10 +136,16 @@ footer{
         grid-template-columns: 1fr 1fr 1fr;
     }
 
+    .studio .inner {
+        display: grid;
+        grid-template-columns: 1fr 4fr;
+
+    }
+
 }
 
-@media screen and (min-width: 800px){
-    .menu-button{
+@media screen and (min-width: 800px) {
+    .menu-button {
         display: none;
     }
 
@@ -155,9 +158,5 @@ footer{
         gap: 1rem;
     }
 
-    .studio{
-        display: flex;
-    }
-    /*need help with background color and line =ing up text
 
 }
