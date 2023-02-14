@@ -25,9 +25,17 @@ header .inner {
 
 nav {
     background-color: rgba(255, 255, 255, .4);
-    display: none;
-    padding: 1rem;
+    max-height: 0;
+    overflow: hidden;
+    width: 100%;
+    transition: all .25s ease-out;
 }
+.open {
+    max-height: 200px;
+}
+
+
+
 
 nav ul {
     margin-left: 0;
@@ -62,6 +70,7 @@ h1 {
 
 .menu-wrapper {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
 }
 
@@ -139,7 +148,6 @@ footer {
     .studio .inner {
         display: grid;
         grid-template-columns: 1fr 4fr;
-
     }
 
 }
@@ -150,7 +158,9 @@ footer {
     }
 
     nav {
-        display: block;
+        display: block  !important;
+        max-height: 200px;
+        width: auto;
     }
 
     nav ul {
