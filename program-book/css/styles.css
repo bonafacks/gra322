@@ -1,3 +1,31 @@
+/**********
+*Single Project Template
+*********/
+
 .nav-active {
     color:chocolate;
+}
+/**********
+*Core Elements and Typography
+*********/
+
+
+
+/**********
+*Single Project Template
+*********/
+.project h1{
+
+
+}
+
+
+/**********
+*Home Project Template
+*********/
+@media screen and (mid-width: 600px)  {
+
+}
+@media screen and (mid-width: 800px)  {
+    
 }
