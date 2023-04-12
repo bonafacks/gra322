@@ -1,15 +1,139 @@
 /**********
-*Single Project Template
+*Base Styles
 *********/
+body{
+    font-family: 'Open Sans', sans-serif;
+}
 
 .nav-active {
     color:chocolate;
 }
+
+#sidebarMenu {
+    height: 100%;
+    position: fixed;
+    left: 0;
+    width: 1000px;
+    margin-top: 60px;
+    transform: translateX(-1051px);
+    transition: transform 300ms ease-in-out;
+    background: #FFFEF1;
+}
+.sidebarMenuInner{
+    margin:0;
+    padding:0;
+    border-top: 1px solid rgba(255, 255, 255, 0.10);
+}
+.sidebarMenuInner li{
+    list-style: none;
+    color: black;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 20px;
+    cursor: pointer;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.10);
+}
+.sidebarMenuInner li span{
+    display: block;
+    font-size: 14px;
+    color: red;
+}
+.sidebarMenuInner li a{
+    color: black;
+    text-transform: uppercase;
+    font-size: 46px ;
+    font-weight: bold;
+    cursor: pointer;
+    text-decoration: none;
+}
+input[type="checkbox"]:checked ~ #sidebarMenu {
+    transform: translateX(0);
+}
+
+input[type=checkbox] {
+    transition: all 0.3s;
+    box-sizing: border-box;
+    display: none;
+}
+.sidebarIconToggle {
+    transition: all 0.3s;
+    box-sizing: border-box;
+    cursor: pointer;
+    position: absolute;
+    z-index: 99;
+    height: 100%;
+    width: 100%;
+    top: 22px;
+    left: 15px;
+    height: 22px;
+    width: 22px;
+}
+.spinner {
+    transition: all 0.3s;
+    box-sizing: border-box;
+    position: absolute;
+    height: 3px;
+    width: 100%;
+    background-color: black;
+}
+.horizontal {
+    transition: all 0.3s;
+    box-sizing: border-box;
+    position: relative;
+    float: left;
+    margin-top: 3px;
+}
+.diagonal.part-1 {
+    position: relative;
+    transition: all 0.3s;
+    box-sizing: border-box;
+    float: left;
+}
+.diagonal.part-2 {
+    transition: all 0.3s;
+    box-sizing: border-box;
+    position: relative;
+    float: left;
+    margin-top: 3px;
+}
+input[type=checkbox]:checked ~ .sidebarIconToggle > .horizontal {
+    transition: all 0.3s;
+    box-sizing: border-box;
+    opacity: 0;
+}
+input[type=checkbox]:checked ~ .sidebarIconToggle > .diagonal.part-1 {
+    transition: all 0.3s;
+    box-sizing: border-box;
+    transform: rotate(135deg);
+    margin-top: 8px;
+}
+input[type=checkbox]:checked ~ .sidebarIconToggle > .diagonal.part-2 {
+    transition: all 0.3s;
+    box-sizing: border-box;
+    transform: rotate(-135deg);
+    margin-top: -9px;
+}
+
+
+
+
 /**********
 *Core Elements and Typography
 *********/
+h1{padding-top: 50px;
+    padding-left: 15px;
 
+}
+h2{
 
+}
+h3{
+
+}
+p{
+padding-left: 15px;
+
+}
 
 /**********
 *Single Project Template
@@ -23,9 +147,17 @@
 /**********
 *Home Project Template
 *********/
+.Home h1{
+
+}
+
+
+/**********
+*Home Project Template
+*********/
 @media screen and (mid-width: 600px)  {
 
 }
 @media screen and (mid-width: 800px)  {
-    
+
 }
