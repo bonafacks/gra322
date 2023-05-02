@@ -9,9 +9,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <!-- Load Styles -->
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap"
+    rel="stylesheet">
 
 
   <link rel="stylesheet" href="css/reset.css">
@@ -19,47 +21,83 @@
 </head>
 
 <body>
-<!-- Add your content here -->
+  <!-- Add your content here -->
 
-<div class="header"></div>
-<input type="checkbox" class="openSidebarMenu" id="openSidebarMenu">
-<label for="openSidebarMenu" class="sidebarIconToggle">
-  <div class="spinner diagonal part-1"></div>
-  <div class="spinner horizontal"></div>
-  <div class="spinner diagonal part-2"></div>
-</label>
-<div id="sidebarMenu">
-  <ul class="sidebarMenuInner">
-    <li><a href="index.html" >Home</a></li>
-    <li><a href="project-1.html" >PROJECT 1</a></li>
-    <li><a href="project-2.html" >PROJECT 2</a></li>
-    <li><a href="project-3.html" >PROJECT 3</a></li>
-    <li><a href="project-4.html" >PROJECT 4</a></li>
-    <li><a href="project-5.html" >PROJECT 5</a></li>
-    <li><a href="project-6.html" >PROJECT 6</a></li>
-  </ul>
-</div>
+  <div class="header"></div>
+  <input type="checkbox" class="openSidebarMenu" id="openSidebarMenu">
+  <label for="openSidebarMenu" class="sidebarIconToggle">
+    <div class="spinner diagonal part-1"></div>
+    <div class="spinner horizontal"></div>
+    <div class="spinner diagonal part-2"></div>
+  </label>
+  <div id="sidebarMenu">
+    <ul class="sidebarMenuInner">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="project-1.html">PROJECT 1</a></li>
+      <li><a href="project-2.html">PROJECT 2</a></li>
+      <li><a href="project-3.html">PROJECT 3</a></li>
+      <li><a href="project-4.html">PROJECT 4</a></li>
+      <li><a href="project-5.html">PROJECT 5</a></li>
+      <li><a href="project-6.html">PROJECT 6</a></li>
+    </ul>
+  </div>
 
-<h1>Program Book</h1>
+  <section class="freatured-work">
 
-<div class="name">
-  <p>
-    Jose Villalobos
-  </p>
-  <p>
-   Design school
-  </p>
-  <p>
-    Arizona State University
-   </p>
-   <p>
-   GRA 322
-   </p>
-</div>
+    <div class="inner">
+
+      <h2>Freatured Work</h2>
+
+      <div class="work-grid">
+
+        <figure class="rellax" data-rellax-speed="7">
+          <img src="img/project-1.jpg" alt="Image of the project Asuna webpage.">
+          <figcaption>Asuna Website</figcaption>
+        </figure>
+
+        <figure class="rellax" data-rellax-speed="5">
+          <img src="img/project-2.jpg" alt="Image of the project Letter and Number">
+          <figcaption>Letter Number</figcaption>
+        </figure>
+
+        <figure class="rellax" data-rellax-speed="6">
+          <img src="img/project-3.jpg" alt="Image of the project Spoof app.">
+          <figcaption>spoof</figcaption>
+        </figure>
+        <figure class="rellax" data-rellax-speed="6">
+          <img src="img/project-3.jpg" alt="Image of the project ATX record page.">
+          <figcaption>ATX Record player</figcaption>
+        </figure>
+        <figure class="rellax" data-rellax-speed="6">
+          <img src="img/project-3.jpg" alt="Image of the project Responsive Architects"">
+          <figcaption>Responsive Architects</figcaption>
+        </figure>
+
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <section class="studio">
+
+    <div class="inner">
+
+      <h2 data-aos="fade-right">Jose Villalobos</h2>
+      <p class="about">
+        Design school
+        Arizona State University
+        GRA 322
+      </p>
+    </div>
+  </section>
 
 
 
-<!-- Load Scripts -->
-<script src="js/scripts.js"></script>
+
+  <!-- Load Scripts -->
+  <script src="js/scripts.js"></script>
 </body>
+
 </html>

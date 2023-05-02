@@ -172,10 +172,87 @@ p {
     background: #FFFEF1;
 }
 
+.freatured-work {
+    padding: 20rem 1rem;
+}
 
-/**********
-*Home Project Template
-*********/
-@media screen and (mid-width: 600px) {}
+.freatured-work h2 {
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    text-transform: uppercase;
+}
 
-@media screen and (mid-width: 800px) {}
+.freatured-work figure {
+    margin-bottom: 2rem;
+}
+
+.freatured-work figcaption {
+    font-size: 14px;
+    margin-top: 1rem;
+    text-transform: uppercase;
+}
+
+.studio {
+    background-color: #FFFEF1;
+    padding: 1rem;
+}
+
+.studio p {
+    font-size: 15px;
+    font-weight: 300;
+    padding-right: 36px;
+    padding-left: 45px;
+    margin-left: 15px;
+    margin-top: 40px;
+    border-left: solid 3px;
+    border-color: #F2F2F2;
+    margin-bottom: 24px;
+    text-align: left;
+    word-spacing: 5px;
+    line-height: 26px;
+}
+
+.studio h2 {
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+
+}
+
+footer {
+    font-size: 14px;
+    font-weight: 600;
+    padding: 1rem;
+    text-transform: uppercase;
+}
+
+.inner {
+    margin: 0 auto;
+    max-width: 1280px;
+    position: relative;
+}
+
+header .inner {
+    height: 100%;
+}
+
+
+@media screen and (min-width: 680px) {
+    .work-grid {
+        display: grid;
+        gap: 1rem;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .studio .inner {
+        display: grid;
+        grid-template-columns: 1fr 4fr;
+    }
+
+}
+
+@media screen and (min-width: 800px) {
+    .menu-button {
+        display: none;
+    }
