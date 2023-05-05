@@ -4,11 +4,6 @@
 body {
     font-family: 'Open Sans', sans-serif;
 }
-header {
-    background-image: url('img');
-    background-size: cover;
-    height: 80vh;
-}
 
 .nav-active {
     color: chocolate;
